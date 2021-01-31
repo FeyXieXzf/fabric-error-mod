@@ -6,5 +6,6 @@
   "item.errormod.err_chestplate": "ERROR Chestplate",
   "item.errormod.err_leggings": "ERROR Leggings",
   "item.errormod.err_boots": "ERROR Boots",
-  "item.errormod.err_food": "ERROR Apple"
+  "item.errormod.err_food": "ERROR Apple",
+  "item.minecraft.turtle_helmet": "A Weird Green Hat"
 }
