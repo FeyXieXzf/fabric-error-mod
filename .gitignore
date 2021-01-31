@@ -1,12 +1,7 @@
 # gradle
-
+.gitignore
 .gradle/
-build/classes/
-build/docs/
-build/generated/
-build/loom-cache/
-build/resources/
-build/tmp/
+build/
 out/
 classes/
 
