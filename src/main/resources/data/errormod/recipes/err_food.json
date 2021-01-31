@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "errormod:err_block"
+    },
+    "W": {
+      "item": "errormod:err_item"
+    }
+  },
+  "result": {
+    "item": "errormod:err_food",
+    "count": 6
+  }
+}

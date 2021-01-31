@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "R R",
+    "WFW",
+    "R R"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:obsidian"
+    },
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "W": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "errormod:err_block",
+    "count": 1
+  }
+}

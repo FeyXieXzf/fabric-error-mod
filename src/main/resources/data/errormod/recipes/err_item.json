@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "   ",
+    " F ",
+    "   "
+  ],
+  "key": {
+    "F": {
+      "item": "errormod:err_block"
+    }
+  },
+  "result": {
+    "item": "errormod:err_item",
+    "count": 9
+  }
+}

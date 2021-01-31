@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "errormod:block/err_block" }
+  }
+}

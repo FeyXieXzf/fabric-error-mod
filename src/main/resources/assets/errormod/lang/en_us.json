@@ -1,0 +1,10 @@
+{
+  "item.errormod.err_item": "ERROR Item",
+  "block.errormod.err_block": "ERROR Block",
+  "itemGroup.errormod.err_group": "ERROR Items Group",
+  "item.errormod.err_helmet": "ERROR Helmet",
+  "item.errormod.err_chestplate": "ERROR Chestplate",
+  "item.errormod.err_leggings": "ERROR Leggings",
+  "item.errormod.err_boots": "ERROR Boots",
+  "item.errormod.err_food": "ERROR Apple"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "errormod",
+  "version": "${version}",
+
+  "name": "ERROR Items",
+  "description": "Add many overpowered 'error' items to the game!",
+  "authors": [
+    "Ujhhgtg"
+  ],
+  "contact": {
+    "homepage": "https://blog.fey.weoper.com/",
+    "sources": "https://fabricmc.net/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/errormod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.errormod.ErrorMod"
+    ]
+  },
+
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
