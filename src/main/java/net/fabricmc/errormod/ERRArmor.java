@@ -40,9 +40,9 @@ public class ERRArmor implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 999999.0F;
+        return 2147483647;
     }
 
     @Override
-    public float getKnockbackResistance() { return 0.999999F; }
+    public float getKnockbackResistance() { return 2147483647; }
 }
