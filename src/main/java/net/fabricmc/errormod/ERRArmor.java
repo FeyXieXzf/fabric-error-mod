@@ -31,9 +31,7 @@ public class ERRArmor implements ArmorMaterial {
     }
 
     @Override
-    public Ingredient getRepairIngredient() {
-        return null;
-    }
+    public Ingredient getRepairIngredient() { return null; }
 
     @Override
     public String getName() {
@@ -42,11 +40,9 @@ public class ERRArmor implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 2147483647;
+        return 999999.0F;
     }
 
     @Override
-    public float getKnockbackResistance() {
-        return 2147483647;
-    }
+    public float getKnockbackResistance() { return 0.999999F; }
 }
