@@ -45,14 +45,14 @@ public class ErrorMod implements ModInitializer {
             .saturationModifier(1.0F).build()).maxCount(64));
     @Override
     public void onInitialize() {
+        Registry.register(Registry.ITEM, new Identifier(MODID, "err_item"), ERR_ITEM);
+        Registry.register(Registry.BLOCK, new Identifier(MODID, "err_block"), ERR_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(MODID, "err_block"), new BlockItem(ERR_BLOCK, new Item.Settings().group(ERR_GROUP)));
         Registry.register(Registry.ITEM, new Identifier(MODID, "err_food"), ERR_FOOD);
         Registry.register(Registry.ITEM, new Identifier(MODID, "err_helmet"), new BaseArmor(ERR_ARMOR, EquipmentSlot.HEAD));
         Registry.register(Registry.ITEM, new Identifier(MODID, "err_chestplate"), new BaseArmor(ERR_ARMOR, EquipmentSlot.CHEST));
         Registry.register(Registry.ITEM, new Identifier(MODID, "err_leggings"), new BaseArmor(ERR_ARMOR, EquipmentSlot.LEGS));
         Registry.register(Registry.ITEM, new Identifier(MODID, "err_boots"), new BaseArmor(ERR_ARMOR, EquipmentSlot.FEET));
-        Registry.register(Registry.ITEM, new Identifier(MODID, "err_item"), ERR_ITEM);
-        Registry.register(Registry.BLOCK, new Identifier(MODID, "err_block"), ERR_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(MODID, "err_block"), new BlockItem(ERR_BLOCK, new Item.Settings().group(ERR_GROUP)));
         System.out.println("[ERROR Items Mod] > Mod Initialized Successful!");
     }
 }
