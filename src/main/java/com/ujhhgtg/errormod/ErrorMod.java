@@ -1,4 +1,4 @@
-package net.fabricmc.errormod;
+package com.ujhhgtg.errormod;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -23,7 +23,7 @@ public class ErrorMod implements ModInitializer {
     public static final ItemGroup ERR_GROUP = FabricItemGroupBuilder.build(new Identifier("errormod", "err_group"),() -> new ItemStack(ErrorMod.ERR_ITEM));
     public static final String MODID = "errormod";
     public static final Item ERR_ITEM = new Item(new Item.Settings().group(ERR_GROUP));
-    public static final Block ERR_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).breakByHand(true).breakByTool(FabricToolTags.PICKAXES, 2).hardness(10));
+    public static final Block ERR_BLOCK = new Block(FabricBlockSettings.of(Material.DENSE_ICE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES, 2).hardness(10));
     public static final Item ERR_FOOD = new Item(new Item.Settings().group(ERR_GROUP).food((new FoodComponent.Builder()).hunger(20).meat().snack().alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.HASTE,2147483647,255), 1.0F)
             .statusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE,2147483647,255), 1.0F)

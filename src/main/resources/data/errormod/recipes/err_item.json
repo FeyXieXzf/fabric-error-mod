@@ -1,13 +1,16 @@
 {
   "type": "minecraft:crafting_shapeless",
   "pattern": [
-    "   ",
-    " F ",
-    "   "
+    "WWW",
+    "WFW",
+    "WWW"
   ],
   "key": {
     "F": {
       "item": "errormod:err_block"
+    },
+    "W": {
+      "item": "minecraft:air"
     }
   },
   "result": {

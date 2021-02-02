@@ -1,4 +1,4 @@
-package net.fabricmc.errormod.mixin;
+package com.ujhhgtg.errormod.mixin;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;

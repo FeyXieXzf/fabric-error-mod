@@ -1,4 +1,4 @@
-package net.fabricmc.errormod;
+package com.ujhhgtg.errormod;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
